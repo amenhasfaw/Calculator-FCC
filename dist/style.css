@@ -1,0 +1,135 @@
+body{
+background-image: linear-gradient(to right top, #878e81, #778c7f, #668a84, #56868d, #4f8096, #577b9f, #6c74a2, #856b9c, #a3628d, #b85c73, #be5e52, #b36a31);
+display:flex;
+font-family:  'Roboto','sans-serif';
+justify-content: center;
+align-items:center;
+height: 100vh;
+
+}
+
+.calc {
+  border-radius: 10px;
+}
+
+.calc-contain {
+  width: 380px;
+  height: 500px;
+  flex: 0 1 auto;
+  padding: 30px;
+background-color: #121212;
+  
+}
+
+.numbtn {
+  width: 70px;
+  height: 60px;
+  font-size: 25px;
+font-weight: Bold;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+background-color: #222;
+color: #ddd;
+box-shadow: 1px 1px 1px 1px #000;
+  margin: 5px;
+}
+
+.funcbtn {
+  width: 75px;
+  height: 60px;
+  font-size: 25px;
+font-weight: Bold;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+background-color: purple;
+color: #ddd;
+box-shadow: 1px 1px 1px 1px #000;
+  margin: 5px;
+}
+
+.clearbtn {
+  width: 230px;
+  height: 60px;
+  font-size: 25px;
+font-weight: Bold;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+background-color: #fc031c;
+color: #ddd;
+box-shadow: 1px 1px 1px 1px #000;
+  margin: 5px;
+}
+
+.eqbtn {
+  width: 245px;
+  height: 80px;
+  font-size: 25px;
+font-weight: Bold;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+background-color: #222;
+color: #ddd;
+box-shadow: 1px 1px 1px 1px #000;
+  margin: 5px;
+}
+
+.numbtn:active, .clearbtn:active, .funcbtn:active, .btnyuge:active, .eqbtn:active {
+  -webkit-box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 4px 4px 5px 1px rgba(0,0,0,0.75);
+}
+
+.btnyuge {
+  width: 150px;
+  height: 60px;
+  font-size: 25px;
+font-weight: Bold;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+background-color: #222;
+color: #ddd;
+box-shadow: 1px 1px 1px 1px #000;
+  margin: 5px;
+}
+
+.displayinput {
+  background-color: #222;
+  color: #ddd;
+  font-size: 1.3em;
+  width: 100%;
+  min-height: 4vh;
+  text-align: right;
+  padding-right: 4px;
+  -webkit-box-shadow: inset 5px 5px 4px -4px rgba(0,0,0,0.87);
+box-shadow: inset 5px 5px 4px -4px rgba(0,0,0,0.87);
+}
+
+.displayoutput {
+  background-color: #222;
+  color: #ddd;
+  font-size: 2.6em;
+  width: 100%;
+  min-height: 6vh;
+  margin: 0;
+  text-align: right;
+  padding-right: 4px;
+  -webkit-box-shadow: inset 5px -5px 4px -4px rgba(0,0,0,0.87); 
+  box-shadow: inset 5px -5px 4px -4px rgba(0,0,0,0.87);
+}
+
+.numcol {
+  padding-right: 2px !important;
+}
+
+.funccol {
+  padding-left: 2px !important;
+}
+
+.displaycol {
+  padding: 5px 2px !important;
+}
