@@ -1,5 +1,4 @@
 # CALCULATOR
----
 
 A React and Bootstrap based Calculator. This was completed as part of FreeCodeCamp's Front End Development Libraries Project.
 
